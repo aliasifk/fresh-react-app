@@ -1,0 +1,18 @@
+{
+  "name": "fresh-react-app",
+  "version": "1.0.0",
+  "description": "Simple tool to generate a fresh and clean create-react-app",
+  "main": "index.js",
+  "repository": "https://github.com/aliasifk/fresh-react-app",
+  "author": "aliasifk",
+  "license": "Apache-2.0",
+  "type":"module",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^8.2.4",
+    "nanospinner": "^1.1.0"
+  }
+}
