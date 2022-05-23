@@ -4,6 +4,7 @@
   "description": "Simple tool to generate a fresh and clean create-react-app",
   "main": "index.js",
   "repository": "https://github.com/aliasifk/fresh-react-app",
+  "bin": "bin/index.js",
   "author": "aliasifk",
   "license": "Apache-2.0",
   "type":"module",

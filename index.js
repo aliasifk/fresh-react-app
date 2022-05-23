@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { execSync } from "child_process";
 import fs from "fs";
-const folderName = process.argv[2] || "folder2";
+const folderName = process.argv[2] || ".";
 
 const AppJs = `import React from 'react';
 import "./App.css";
@@ -54,6 +54,12 @@ const deleteSrc = () => {
 
   ar.forEach((item) => {
     fs.rmSync(`${folderName}/public/${item}`, { force: true });
+  });
+
+  fs.writeFile(`${folderName}/public/index.html`, IndexHtml, (err) => {
+    if (err) {
+      console.error(err);
+    }
   });
 
   fs.mkdirSync(`${folderName}/src`);
