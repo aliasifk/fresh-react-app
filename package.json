@@ -1,6 +1,6 @@
 {
   "name": "fresh-react-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple tool to generate a fresh and clean create-react-app",
   "repository": "https://github.com/aliasifk/fresh-react-app",
   "bin": "index.js",
