@@ -2,7 +2,6 @@
 import { execSync } from "child_process";
 import fs from "fs";
 const folderName = process.argv[2] || "folder2";
-import { createSpinner } from "nanospinner";
 
 const AppJs = `import React from 'react';
 import "./App.css";
